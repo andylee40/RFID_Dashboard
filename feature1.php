@@ -82,7 +82,7 @@ var series0 = chart.series.push(am5xy.LineSeries.new(root, {
   legendLabelText: "{name}",
   legendRangeLabelText: "{name}",
   tooltip: am5.Tooltip.new(root, {
-    labelText: "進食: {valueX} 飲水:{valueY}"
+    labelText: "進食次數 : {valueX} 飲水次數 : {valueY}"
   })
 }));
 
@@ -114,7 +114,7 @@ var series1 = chart.series.push(am5xy.LineSeries.new(root, {
   legendLabelText: "{name}",
   legendRangeLabelText: "{name}",
   tooltip: am5.Tooltip.new(root, {
-    labelText: "進食: {valueX} 飲水:{valueY}"
+    labelText: "進食次數 : {valueX} 飲水次數 : {valueY}"
   })
 }));
 
