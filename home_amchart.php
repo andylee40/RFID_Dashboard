@@ -51,10 +51,11 @@
               <label for="idd">豬隻編號</label>
               <input type="text" class="form-control"  name="idd" id="idd">
             </div>
-           
           </div>
           
-             <div class="form-group ">
+          <br>
+                  
+             <div class="form-group" style='margin-left:15px'>
                    <input type="submit"  value="查詢" onclick='javascript: return SubmitForm()' />
             <div>
           
